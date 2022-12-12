@@ -1,6 +1,4 @@
-# React Test
-
-## React Libraries
+# React Libraries
 
 - Tailwind CSS
   - Quick prototyping
