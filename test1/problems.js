@@ -1,5 +1,5 @@
 function fishBash(n) {
-	for (let i = 0; i < n; i++) {
+	for (let i = 1; i <= n; i++) {
 		if (i % 15 === 0) {
 			console.log('fish bash')
 			continue
@@ -56,10 +56,6 @@ function sortArray(arr, start, end, order) {
 	}
 }
 
-const a = [12, 123, 412, 1, 124, 4]
-sortArray(a, 0, a.length - 1, 'asc')
-console.log(a)
-
 function isPalindromic(text) {
 	// remove white space from text & set to lowercase
 	const str = text.replace(/ /g, '').toLowerCase()
@@ -89,7 +85,3 @@ function isPalindromic(text) {
 
 	return palindromeFlag
 }
-
-console.log('madam im adam', isPalindromic('madam im adam'))
-console.log('Step on no pets', isPalindromic('Step on no pets'))
-console.log('aacbbcaaa', isPalindromic('aacbbcaa'))
