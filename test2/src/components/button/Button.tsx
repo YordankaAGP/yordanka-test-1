@@ -16,7 +16,7 @@ function Button(props: Props) {
 	return (
 		<button
 			className={clsx(
-				'rounded-md inline-block px-5 py-1.5 min-w-11 text-black transition-[color_background-color_transform] ease-out',
+				'rounded-md inline-block px-5 py-1.5 min-w-11 transition-[color_background-color_transform] ease-out',
 				variantStyle[variant],
 				className
 			)}

@@ -3,7 +3,7 @@ import Modal, { ModalProps } from './Modal'
 function LoginModal(props: ModalProps) {
 	return (
 		<Modal {...props}>
-			<h2 className='text-lg font-semibold mb-6'>Login</h2>
+			<h2 className='text-3xl font-semibold text-center mb-12'>Login</h2>
 			<div className='mb-6'>
 				<input
 					className='w-full block p-2 mb-4 rounded-md border border-blue-800'
